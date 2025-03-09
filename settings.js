@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'මෙතනට ඔයාගෙ සිසන් id එක දාන්න' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=H3wCiARB#kopJeDiAHnorBKRKQ2TSSMwavcHtF9XPibHFzTZ9gyI' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-SUDO: process.env.SUDO === undefined ? '9473737373,9363636367' : process.env.SUDO,
+SUDO: process.env.SUDO === undefined ? '923314110070' : process.env.SUDO,
 SESSION_NAME: process.env.PORT === undefined ? "asitha" : process.env.SESSION_NAME,
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!!*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
@@ -27,7 +27,7 @@ ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.e
 READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
+AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_SEND_JID,
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "falsw" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
